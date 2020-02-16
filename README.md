@@ -18,13 +18,13 @@
 ### Note
 * Application was built using VS Code text-ediro
 
-* Built with HTML, CSS, Javascript, 
+* Built with HTML, CSS, Javascript, and Boostrap
 
 * Additional plugins include animate.css, lo
 ## Results 
 * You can view the live website, hosted via GH-pages below: 
-* [Portfolio]  (https://nelvinom.github.io/Portfolio/)
-## MIT license
+* Akan name generator{}
+# MIT license
 * Copyright <2020> <COPYRIGHT Nelvin>
 
 * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
