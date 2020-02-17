@@ -64,8 +64,7 @@ color: #000;
     background-size: cover;
     margin-bottom: 0;
 }
-.banner:before,
-.sec2:before{
+.banner:before{
     content: '';
     position: absolute;
     top: 0;
@@ -75,8 +74,7 @@ color: #000;
     background: linear-gradient(#000,transparent);
     pointer-events: none;
 }
-.banner:after,
-.sec2:after{
+.banner:after{
     content: '';
     position: absolute;
     top: 0;
