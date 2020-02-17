@@ -1,10 +1,10 @@
-# Introduction &Objectives
+# Introduction & Objectives
 * Build a professional and working form that generates the names in Akan names as in Ghana site from scratch, showcasing work and skills that I possess, have created, or acquired, let visitors and potential employers get to know a little about me as a developer.
 ### Requirements
-* Responsive on common devices, desktop, tablet, phone etc...
-* Javascript functionality, interesting scroll animations and birthday form
-* Flexbox for responsive design
-* Applying  Boostrap for responsive
+>>> Responsive on common devices, desktop, tablet, phone etc...
+>>> Javascript functionality, interesting scroll animations and birthday form
+>>> Flexbox for responsive design
+>>> Applying  Boostrap for responsive
 ### Project Timeline
 
 * Mockup website using wireframes, create storyboards etc.
@@ -22,7 +22,7 @@
 
 * Additional plugins include animate.css, lo
 ## Results 
-* You can view the live website, hosted via GH-pages below: 
+> You can view the live website, hosted via GH-pages below: 
 * Akan name generator{}
 # MIT license
 * Copyright <2020> <COPYRIGHT Nelvin>
