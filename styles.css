@@ -75,8 +75,7 @@ color: #000;
     background: linear-gradient(#000,transparent);
     pointer-events: none;
 }
-.banner:after,
-.sec2:after{
+.banner:after{
     content: '';
     position: absolute;
     top: 0;
