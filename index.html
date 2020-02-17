@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <script src="script.js"></script>
+     <script src="scripts.js"></script>
     <title>Akan Name Generator</title>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -128,15 +128,10 @@
                   <div class="valid-feedback">Valid.</div>
                   <div class="invalid-feedback">Please fill out this field.</div>
                 </div>
-                <div class="checked">
-                  <label class="form-check-label" for="gender">
-                    <input type="radio" id="gender" name="gender" value="female" checked>male
-                  </label>
-                </div>
                 <div class="form-check">
-                  <label class="form-check-label" for="gender">
-                    <input type="radio" id="gender" name="gender" value="male" checked>female
-                  </label>
+                    <label>Gender:</label>
+                    <input type="radio" name="male" id="male">male
+                    <input type="radio" name="female" id="female">female
                 </div>
                 <div class="alert alert-success alert-dismissible">
                 <button type="submit" class="btn" onclick="output()">Submit</button>
