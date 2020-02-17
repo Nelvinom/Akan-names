@@ -1,3 +1,8 @@
+# Title
++ Akon names generator.
+# Author
++ Nelvin Omondi
++ A website developer
 # Introduction & Objectives
 * Build a professional and working form that generates the names in Akan names as in Ghana site from scratch, showcasing work and skills that I possess, have created, or acquired, let visitors and potential employers get to know a little about me as a developer.
 ### Requirements
@@ -23,7 +28,7 @@
 * Additional plugins include animate.css, lo
 ## Results 
 > You can view the live website, hosted via GH-pages below: 
-* Akan name generator{}
+* Akan name generator{https://nelvinom.github.io/Akan-names/}
 # MIT license
 * Copyright <2020> <COPYRIGHT Nelvin>
 
