@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <script src="script.js"></script>
+     <script src="scripts.js"></script>
     <title>Akan Name Generator</title>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -109,40 +109,26 @@
         <div class="custom-file">
             <div class="container h100">
                 <h2>Fill your Birthday details</h2>
-            <form  class="was-validated" onsubmit="return false">
-                <div class="form-group">
-                  <label for="day">Birthday:</label>
-                  <input type="number" class="form-control" id="day" placeholder="Enter day of birth" min="1" max="31" onchange="outPut" required>
-                  <div class="valid-feedback">Valid.</div>
-                  <div class="invalid-feedback">Please fill out this field.</div>
-                </div>
-                <div class="form-group">
-                  <label for="month">Month:</label>
-                  <input type="number" class="form-control" id="month" placeholder="Enter month of birth" min="1" max="31"  onchange="outPut" required>
-                  <div class="valid-feedback">Valid.</div>
-                  <div class="invalid-feedback">Please fill out this field.</div>
-                </div>
-                <div class="form-group">
-                  <label for="year">Year:</label>
-                  <input type="number" class="form-control" id="year" placeholder="Enter year of birth" min="1900" max="2020"  onchange="outPut" required>
-                  <div class="valid-feedback">Valid.</div>
-                  <div class="invalid-feedback">Please fill out this field.</div>
-                </div>
-                <div class="checked">
-                  <label class="form-check-label" for="gender">
-                    <input type="radio" id="gender" name="gender" value="female" checked>male
-                  </label>
-                </div>
-                <div class="form-check">
-                  <label class="form-check-label" for="gender">
-                    <input type="radio" id="gender" name="gender" value="male" checked>female
-                  </label>
-                </div>
-                <div class="alert alert-success alert-dismissible">
-                <button type="submit" class="btn" onclick="output()">Submit</button>
-                <div id="outcome">output</div> 
-            </div>
-            </form>
+            
+<div id="form">
+  <form onsubmit="return false">
+      <label>Gender:</label>
+      <input type="radio" name="male" id="male">male
+      <input type="radio" name="female" id="female">female<br><br>
+      <label>Day:</label>
+      <input type="text" name="day" id="day" min="1" max="31"><br><br>
+      <label>Month:</label>
+      <input type="text" name="month" id="month" min="1" max="12"><br><br>
+      <label>Year:</label>
+      <input type="text" name="year" id="year"><br><br>
+      <label>Century:</label>
+      <select name="Century" id="century">
+          <option value="20th">20th</option>
+          <option value="19th">19th</option>
+      </select><br><br>
+      <button type="submit" name="submit" onclick="getName()" class="btn-outline-info btn-lg">Submit</button>
+      <button type="reset" name="submit" class="btn-outline-danger btn-lg">reset</button>
+  </form>
             </div>
         </div>    
      </section>
