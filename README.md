@@ -1,4 +1,4 @@
-# Title
+# Tittle
 + Akon names generator.
 # Author
 + Nelvin Omondi
