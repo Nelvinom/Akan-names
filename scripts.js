@@ -8,7 +8,7 @@ function output() {
     var century = document.getElementById("century").value;
     var cc = parseInt(century)
     var cc = (yy - 1) / 100 + 1;
-    var result = parseInt(cc + "-" + yy + "-" + mm + "-" + dd);
+    var result = parseInt(((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7;
     var boy = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var girl = ["Akosua", " Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     if (document.getElementById("gender").checked){
